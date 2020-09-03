@@ -1,0 +1,13 @@
+C:\Users\lucas\Game Dev\Facens\Program. Orientada a Objetos\Projetos\Tarefas_POO\Tarefa_POO_020920\Tarefa_POO_020920\bin\Debug\netcoreapp3.1\Tarefa_POO_020920.exe
+C:\Users\lucas\Game Dev\Facens\Program. Orientada a Objetos\Projetos\Tarefas_POO\Tarefa_POO_020920\Tarefa_POO_020920\bin\Debug\netcoreapp3.1\Tarefa_POO_020920.deps.json
+C:\Users\lucas\Game Dev\Facens\Program. Orientada a Objetos\Projetos\Tarefas_POO\Tarefa_POO_020920\Tarefa_POO_020920\bin\Debug\netcoreapp3.1\Tarefa_POO_020920.runtimeconfig.json
+C:\Users\lucas\Game Dev\Facens\Program. Orientada a Objetos\Projetos\Tarefas_POO\Tarefa_POO_020920\Tarefa_POO_020920\bin\Debug\netcoreapp3.1\Tarefa_POO_020920.runtimeconfig.dev.json
+C:\Users\lucas\Game Dev\Facens\Program. Orientada a Objetos\Projetos\Tarefas_POO\Tarefa_POO_020920\Tarefa_POO_020920\bin\Debug\netcoreapp3.1\Tarefa_POO_020920.dll
+C:\Users\lucas\Game Dev\Facens\Program. Orientada a Objetos\Projetos\Tarefas_POO\Tarefa_POO_020920\Tarefa_POO_020920\bin\Debug\netcoreapp3.1\Tarefa_POO_020920.pdb
+C:\Users\lucas\Game Dev\Facens\Program. Orientada a Objetos\Projetos\Tarefas_POO\Tarefa_POO_020920\Tarefa_POO_020920\obj\Debug\netcoreapp3.1\Tarefa_POO_020920.csprojAssemblyReference.cache
+C:\Users\lucas\Game Dev\Facens\Program. Orientada a Objetos\Projetos\Tarefas_POO\Tarefa_POO_020920\Tarefa_POO_020920\obj\Debug\netcoreapp3.1\Tarefa_POO_020920.AssemblyInfoInputs.cache
+C:\Users\lucas\Game Dev\Facens\Program. Orientada a Objetos\Projetos\Tarefas_POO\Tarefa_POO_020920\Tarefa_POO_020920\obj\Debug\netcoreapp3.1\Tarefa_POO_020920.AssemblyInfo.cs
+C:\Users\lucas\Game Dev\Facens\Program. Orientada a Objetos\Projetos\Tarefas_POO\Tarefa_POO_020920\Tarefa_POO_020920\obj\Debug\netcoreapp3.1\Tarefa_POO_020920.csproj.CoreCompileInputs.cache
+C:\Users\lucas\Game Dev\Facens\Program. Orientada a Objetos\Projetos\Tarefas_POO\Tarefa_POO_020920\Tarefa_POO_020920\obj\Debug\netcoreapp3.1\Tarefa_POO_020920.dll
+C:\Users\lucas\Game Dev\Facens\Program. Orientada a Objetos\Projetos\Tarefas_POO\Tarefa_POO_020920\Tarefa_POO_020920\obj\Debug\netcoreapp3.1\Tarefa_POO_020920.pdb
+C:\Users\lucas\Game Dev\Facens\Program. Orientada a Objetos\Projetos\Tarefas_POO\Tarefa_POO_020920\Tarefa_POO_020920\obj\Debug\netcoreapp3.1\Tarefa_POO_020920.genruntimeconfig.cache
