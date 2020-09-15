@@ -21,7 +21,7 @@ namespace Tarefa_POO_070920_1
 
         public double Diagonal()
         {
-            double diagonal = MathF.Sqrt(MathF.Pow((float)Largura, 2) + MathF.Pow((float)Altura, 2));
+            double diagonal = Math.Sqrt(Math.Pow((float)Largura, 2) + Math.Pow((float)Altura, 2));
             return diagonal;
         }
     }

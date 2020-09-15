@@ -1,4 +1,5 @@
 using System;
+using System.Globalization;
 
 namespace Tarefa_POO_020920
 {
@@ -10,8 +11,7 @@ namespace Tarefa_POO_020920
 
         public double ValorTotalEstoque()
         {
-            double valorTotal = Preco * Quantidade;
-            return valorTotal;
+            return Preco * Quantidade;
         }
 
         public void AdicionarProdutos (int quantidade)
@@ -22,6 +22,16 @@ namespace Tarefa_POO_020920
         public void RemoverProdutos(int quantidade)
         {
             Quantidade -= quantidade;
+        }
+
+        public override string ToString()
+        {
+            return Nome 
+                + ", R$ " 
+                + Preco.ToString("F2", CultureInfo.InvariantCulture) + ", " 
+                + Quantidade 
+                + " unidades, Total: R$ " 
+                + ValorTotalEstoque().ToString("F2", CultureInfo.InvariantCulture);
         }
     }
 }

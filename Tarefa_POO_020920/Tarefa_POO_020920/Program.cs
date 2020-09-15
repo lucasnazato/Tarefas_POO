@@ -17,20 +17,17 @@ namespace Tarefa_POO_020920
             Console.Write("Quantidade: ");
             x.Quantidade = int.Parse(Console.ReadLine());
 
-            double valorTotal = x.ValorTotalEstoque();
-            Console.WriteLine("Dados Atualizados: " + x.Nome + ", R$ " + x.Preco.ToString("F2", CultureInfo.InvariantCulture) + ", " + x.Quantidade + " unidades, " + "Total: R$ " + valorTotal.ToString("F2", CultureInfo.InvariantCulture));
+            Console.WriteLine("Dados Atualizados: " + x);
 
             Console.Write("\nDigite o número a ser adicionado no estoque: ");
             int quantity = int.Parse(Console.ReadLine());
             x.AdicionarProdutos(quantity);
-            valorTotal = x.ValorTotalEstoque();
-            Console.WriteLine("Dados Atualizados: " + x.Nome + ", R$ " + x.Preco.ToString("F2", CultureInfo.InvariantCulture) + ", " + x.Quantidade + " unidades, " + "Total: R$ " + valorTotal.ToString("F2", CultureInfo.InvariantCulture));
+            Console.WriteLine("Dados Atualizados: " + x);
 
             Console.Write("\nDigite o número a ser removido do estoque: ");
             quantity = int.Parse(Console.ReadLine());
             x.RemoverProdutos(quantity);
-            valorTotal = x.ValorTotalEstoque();
-            Console.WriteLine("Dados Atualizados: " + x.Nome + ", R$ " + x.Preco.ToString("F2", CultureInfo.InvariantCulture) + ", " + x.Quantidade + " unidades, " + "Total: R$ " + valorTotal.ToString("F2", CultureInfo.InvariantCulture));
+            Console.WriteLine("Dados Atualizados: " + x);
 
             Console.ReadKey();
         }
