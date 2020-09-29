@@ -14,7 +14,7 @@ namespace Tarefa_POO_020920
             return Preco * Quantidade;
         }
 
-        public void AdicionarProdutos (int quantidade)
+        public void AdicionarProdutos(int quantidade)
         {
             Quantidade += quantidade;
         }
@@ -26,11 +26,11 @@ namespace Tarefa_POO_020920
 
         public override string ToString()
         {
-            return Nome 
-                + ", R$ " 
-                + Preco.ToString("F2", CultureInfo.InvariantCulture) + ", " 
-                + Quantidade 
-                + " unidades, Total: R$ " 
+            return Nome
+                + ", R$ "
+                + Preco.ToString("F2", CultureInfo.InvariantCulture) + ", "
+                + Quantidade
+                + " unidades, Total: R$ "
                 + ValorTotalEstoque().ToString("F2", CultureInfo.InvariantCulture);
         }
     }
