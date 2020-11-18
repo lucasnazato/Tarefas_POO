@@ -7,34 +7,36 @@ namespace Tarefa_POO_111120
     {
         static void Main(string[] args)
         {
-            //Criar conta
-            ContaJuridica conta = new ContaJuridica(8010, "Lara Croft", 100.0, 500.0);
+            Conta acc = new Conta(1001, "Goku", 0.0);
+            ContaJuridica bacc = new ContaJuridica(1002, "Goten", 0.0, 500.0);
 
-            // Dados da conta
-            Console.WriteLine("Conta: " + conta.Numero);
-            Console.WriteLine("Titular: " + conta.Titular);
-            Console.WriteLine("Saldo: R$ " + conta.Saldo.ToString("F2", CultureInfo.InvariantCulture));
-            Console.WriteLine("Empréstimo Limite: R$ " + conta.EmprestimoLimite.ToString("F2", CultureInfo.InvariantCulture));
+            // Upcasting de ...
+            // Conta para Conta Juridica
+            Conta acc1 = bacc;
+            // Conta para Conta Juridica
+            Conta acc2 = new ContaJuridica(1003, "Trunks", 0.0, 200.00);
+            // Conta para Conta Poupança
+            Conta acc3 = new ContaPoupanca(1004, "Vegeta", 0.0, 0.01);
 
-            // Realizar saque da conta
-            Console.WriteLine("\nSaque de R$ 50.00");
-            conta.Saque(50);
-            Console.WriteLine("Saldo: R$ " + conta.Saldo.ToString("F2", CultureInfo.InvariantCulture));
+            // Downcasting
+            ContaJuridica acc4 = (ContaJuridica)acc2;
+            acc4.Emprestimo(100.0);
 
-            // Realizar depósito na conta
-            Console.WriteLine("\nDepósito de R$ 200.00");
-            conta.Deposito(200);
-            Console.WriteLine("Saldo: R$ " + conta.Saldo.ToString("F2", CultureInfo.InvariantCulture));
+            // Verficar se acc3 é uma Conta Juridica ou Poupança
+            // Em seguida criar nova conta usando downcasting, chamar método da classe e dar print na tela
+            if (acc3 is ContaJuridica)
+            {
+                ContaJuridica acc5 = (ContaJuridica)acc3;
+                acc5.Emprestimo(200.0);
+                Console.WriteLine("Emprestimo!");
+            }
 
-            // Empréstimo acima do valor permitido
-            Console.WriteLine("\nEmpréstimo de R$ 600.00");
-            conta.Emprestimo(600);
-            Console.WriteLine("Saldo: R$ " + conta.Saldo.ToString("F2", CultureInfo.InvariantCulture));
-
-            // Empréstimo abaixo do valor permitido
-            Console.WriteLine("\nEmpréstimo de R$ 450.00");
-            conta.Emprestimo(450);
-            Console.WriteLine("Saldo: R$ " + conta.Saldo.ToString("F2", CultureInfo.InvariantCulture));
+            if (acc3 is ContaPoupanca)
+            {
+                ContaPoupanca acc5 = (ContaPoupanca)acc3;
+                acc5.atualizacaoSaldo();
+                Console.WriteLine("Atualizado!");
+            }
 
             Console.ReadKey();
         }
