@@ -19,6 +19,13 @@ namespace Tarefa_POO_111120
             TaxaJuros = taxaJuros;
         }
 
+        // Método de Saque
+        public sealed override void Saque(double saldoTotal)
+        {
+            base.Saque(saldoTotal);
+            Saldo -= 2.0;
+        }
+
         // Método de Atualização de Saldo
         public void atualizacaoSaldo ()
         {

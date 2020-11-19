@@ -25,7 +25,7 @@ namespace Tarefa_POO_111120
         }
 
         // Método de Saque
-        public void Saque (double saldoTotal)
+        public virtual void Saque (double saldoTotal)
         {
             Saldo -= saldoTotal;
         }
