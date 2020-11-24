@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "Tarefa_POO_231120_2/1.0.0": {
+        "runtime": {
+          "Tarefa_POO_231120_2.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Tarefa_POO_231120_2/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
